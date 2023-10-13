@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="hero__image-container">
         <div className="hero__image">
           <Image
-            src="/hero.png"
+            src="./hero.png"
             alt="hero car"
             fill
             className="object-contain"

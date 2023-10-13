@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex flex-wrap justify-between gap-5 px-6 py-10 max-md:flex-col sm:px-16">
         <div className="flex flex-col items-start justify-start gap-6">
           <Image
-            src="/logo.svg"
+            src="./logo.svg"
             alt="logo"
             width={118}
             height={18}

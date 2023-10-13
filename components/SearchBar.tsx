@@ -7,7 +7,7 @@ import Image from "next/image";
 const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   <button type="submit" className={`-ml-3 z-10 ${otherClasses}`}>
     <Image
-      src={"/magnifying-glass.svg"}
+      src={"./magnifying-glass.svg"}
       alt="magnifying-glass"
       width={40}
       height={40}
@@ -47,7 +47,7 @@ const SearchBar = ({ setManufacturer, setModel }: any) => {
       </div>
       <div className="searchbar__item">
         <Image
-          src={"/model-icon.png"}
+          src={"./model-icon.png"}
           alt="model card"
           width={25}
           height={25}

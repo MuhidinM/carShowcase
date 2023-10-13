@@ -40,7 +40,7 @@ const CarCard = ({ car }: CarCardProps) => {
         <div className="flex justify-between w-full group-hover:invisible text-gray">
           <div className="flex flex-col items-center justify-center gap-2">
             <Image
-              src={"/steering-wheel.svg"}
+              src={"./steering-wheel.svg"}
               width={20}
               height={20}
               alt="streering wheel"
@@ -50,11 +50,11 @@ const CarCard = ({ car }: CarCardProps) => {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-2">
-            <Image src={"/tire.svg"} width={20} height={20} alt="tire" />
+            <Image src={"./tire.svg"} width={20} height={20} alt="tire" />
             <p className="text-[14px]">{drive.toUpperCase()}</p>
           </div>
           <div className="flex flex-col items-center justify-center gap-2">
-            <Image src={"/gas.svg"} width={20} height={20} alt="gas" />
+            <Image src={"./gas.svg"} width={20} height={20} alt="gas" />
             <p className="text-[14px]">{city_mpg} MPG</p>
           </div>
         </div>
