@@ -10,6 +10,8 @@ export interface CustomButtonProps {
   isDisabled?: boolean;
 }
 export interface SearchManufacturerProps {
+  selected: any;
+  setSelected: any;
   manufacturer: string;
   setManufacturer: (manufacturer: string) => void;
 }
@@ -45,9 +47,11 @@ export interface OptionProps {
 export interface CustomFilterProps {
   title: string;
   options: OptionProps[];
+  setFilter: any;
 }
 
 export interface ShowMoreProps {
   pageNumber: number;
   isNext: boolean;
+  setLimit: any;
 }

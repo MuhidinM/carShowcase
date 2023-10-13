@@ -86,7 +86,7 @@ export default function Home() {
         ) : (
           <div className="home_error-container">
             <h2 className="text-xl font-bold text-black">Oops, no result</h2>
-            <p>{allCars?.message}</p>
+            {/* <p>{allCars?.message}</p> */}
           </div>
         )}
       </div>
