@@ -38,6 +38,10 @@ const SearchBar = ({ setManufacturer, setModel }: any) => {
         <SearchManufacturer
           selected={searchManufacturer}
           setSelected={setSearchManufacturer}
+          manufacturer={""}
+          setManufacturer={function (manufacturer: string): void {
+            throw new Error("Function not implemented.");
+          }}
         />
         <SearchButton otherClasses={"sm:hidden"} />
       </div>
